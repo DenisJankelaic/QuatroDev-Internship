@@ -23,14 +23,28 @@ body h3{
     margin:0;
 
 }
-body h4{
+body h5{
     font-family: Arial;
     max-width: auto;
     color: #203541;
     
 }
 
+#names{
+    color: #203541;
+    font-style: italic;
+    font-family: Arial;
+}
+.column-layout {
+    max-width: 1300px;
+    background-color: #FFF;
+    margin: 40px auto 0 auto;
+    line-height: 1.65;
+    padding: 20px 50px;
+    display: flex;
+  }
 
+  
 .column {
     float: left;
     padding: 10px;
@@ -156,12 +170,15 @@ body h4{
 .flex-container {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: space-around;
+    
   }
 .flex-container > div {
     background-color: #EEEEEE;
-    margin: 10px;
+    
 }
 .flex-container img {
-    padding: 20px;
+    padding: 0px;
+    max-width: 100px;
+    
 }
