@@ -1,99 +1,167 @@
 <!doctype <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>BookArt</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
-</head>
-<body>
-    <div class="header">
-        <div class="topnav">
-       <img src="src/Web 1920 – 1.png" alt="BookArt Logo">
-        <a href="#">ABOUT US</a>
-        <a href="#">FAQ</a>
-        <a href="#">CONTACT</a>
-        <a href="#">PRICES</a>
-        <a id ="home" href="#">HOME</a>
-     </div>
-     <div class="container">
-      <div id="slider" >
+   <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>BookArt</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+   </head>
+   <body>
+      <div class="header">
+         <div class="wrapper">
+            <div class="logo">
+               <div class="logo-icon">
+                  <img src="src/basic1-039_address_book-512.png" alt="BookArt Logo" style="width: 60px; height: 60px;">
+               </div>
+               <div class="logo-text">
+                  BookArt
+               </div>
+            </div>
+         <div class="menu">
+            <ul>
+               <li>
+                  <a id ="currentPage" href="#">HOME</a>
+               </li>
+               <li>
+                  <a href="#">PRICES</a>
+               </li>
+               <li>
+                  <a href="#">CONTACT</a>
+               </li>
+               <li>
+                  <a href="#">FAQ</a>
+               </li>
+               <li>
+                  <a href="#">ABOUT US</a>
+               </li>
+            </ul>
+         </div>
+         
+        </div>
+      </div>
+      <div class="container">
+         <div id="slider" >
             <img src="src/1.png">
             <img src="src/2.png">
             <img src="src/3.png">
             <img src="src/4.png">
             <img src="src/1.png">
-     </div>
-    </div>
-</div>
-
-<div class="row">
-        <div class="column side">
-        </div>
-        <div class="column middle">
-          <h2 >TOP BOOKS</h2>
-        <div class="flex-container">
-                <div><img src="src/fred.jpg"></div>
-                <div><img src="src/happy life.jpg"></div>
-                <div><img src="src/dutch.jpg"></div>
-        </div>
-        <div class="flex-container">
-                <div><h5>Fred The Lonely Monster</h5></div>
-                <div><h5>Healthy Happy Long Life</h5></div>
-                <div><h5>How To Be The Perfect Dutch</h5></div>
-        </div>
-        <div class="flex-container">
-                <div><p id ="names">Jonas Jonaitis</p></div>
-                <div><p id ="names">Lana Zinger</p></div>
-                <div><p id ="names">Kathian Brads</p></div>
-        </div>
-          
-  <div class="flex-article">
-          <div><img class ="fred"src="src/fred.jpg"></div>
-
-          <div class="text">
-              <h3>Fred the Lonely Monster</h3>
-              <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-                Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. 
-                Donec eu libero sit amet quam egestas semper. 
-                Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                
-        <div><a href="#">READ MORE</a></div>
-              </div>
-            
-  </div>
-      <h2 >LATEST POSTS</h2>
-      <div class="latest-posts">
-        <div class ="post-card">
-        <div class="post">
-            <h5>Healthy Happy Long Life</h5>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentialm.</p>
-        </div>
-        <div class ="post-pic">
-            <img src="src/happy life.jpg">
-        </div>
-        </div>
-        <div class ="post-card">
-        <div class="post">
-            <h5>How To Be The Perfect Dutch</h5>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentialm.</p>
-        </div>
-        <div class ="post-pic">
-            <img src="src/dutch.jpg">
-        </div>
-        </div>
-        
-        
-    </div>
-    </div>
-        <div class="column side">
-        </div>
-  </div>
-
-      <div class="footer">
-        <p>© All rights reserved to BookArt. 2018</p>
+         </div>
       </div>
-      </body>
-</body>
+
+      <div class="top-books">
+            <div class="wrapper">
+                <div class="top-books-items">
+                    <div class="top-books-header">
+                        Top books
+                    </div>
+                    <div class="top-books-list">
+                        <div class="book">
+                            <div class="book-image">
+                                <img src="src/fred.jpg" alt="" class="book-image">
+                            </div>
+                            <div class="book-header">
+                                <h4>Fred The lonely monster</h4>
+                            </div>
+                            <div class="book-author">
+                                <p>Jonas Jonaitis</p>
+                            </div>
+                        </div>
+                        <div class="book">
+                            <div class="book-image">
+                                <img src="src/happy life.jpg" alt="" class="book-image">
+                            </div>
+                            <div class="book-header">
+                                <h4>Healthy Happy Long Life</h4>
+                            </div>
+                            <div class="book-author">
+                                <p>Lana Zinger</p>
+                            </div>
+                        </div>
+                        <div class="book">
+                            <div class="book-image">
+                                <img src="src/dutch.jpg" alt="" class="book-image">
+                            </div>
+                            <div class="book-header">
+                                <h4>How to be the perfect dutch</h4>
+                            </div>
+                            <div class="book-author">
+                                <p>Kathian Brands</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="book-description">
+            <div class="wrapper">
+                <div class="book-description-image">
+                    <img src="src/fred.jpg" alt="" class="book-description-image">
+                </div>
+                <div class="book-description-items">
+                    <div class="book-description-header">
+                        Fred The Lonely Monster
+                    </div>
+                    <div class="book-description-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, illum corporis minus beatae nobis eum
+                            repellendus velit recusandae ab voluptates quod magni quo explicabo tempora iste! Libero odit cupiditate
+                            distinctio!</p>
+                    </div>
+                    <div class="book-description-button">
+                            <button type="button">READ MORE</button>
+                        </div>
+                </div>
+                
+            </div>
+    
+        </div>
+        <div class="latest-posts">
+            <div class="wrapper">
+                <div class="latest-posts-header">
+                    Latest posts
+                </div>
+                <div class="latest-posts-items">
+                    <div class="post">
+                        <div class="post-info">
+                            <div class="post-header">
+                                Healthy Happy Long Life
+                                <p>10 October 2018</p>
+                            </div>
+                            <div class="post-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aut distinctio odit veniam
+                                    iusto culpa laudantium dolor, et expedita est vero? Debitis laboriosam suscipit magnam eius
+                                    facere ad nisi tempore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+                                    esse sunt error animi officiis aliquid rem repellendus, quisquam commodi quia natus dolor
+                                    nesciunt, voluptatibus neque perspiciatis laboriosam in? Consectetur, maxime?</p>
+                            </div>
+                        </div>
+                        <div class="post-image">
+                            <img src="src/happy life.jpg" alt="" class="post-image">
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="post-info">
+                            <div class="post-header">
+                                Fred The Lonely Monster
+                            </div>
+                            <div class="post-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aut distinctio odit veniam
+                                    iusto culpa laudantium dolor, et expedita est vero? Debitis laboriosam suscipit magnam eius
+                                    facere ad nisi tempore!</p>
+                            </div>
+                        </div>
+                        <div class="post-image">
+                            <img src="src/fred.jpg" alt="" class="post-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      <div class="footer">
+         <p>© All rights reserved to BookArt. 2018</p>
+      </div>
+   </body>
+   </body>
 </html>
